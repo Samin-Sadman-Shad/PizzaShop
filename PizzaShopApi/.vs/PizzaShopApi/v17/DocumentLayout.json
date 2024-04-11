@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|f:\\web applications\\asp.net\\pizzashop\\pizzashop\\pizzashopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|f:\\web applications\\asp.net\\pizzashop\\pizzashop\\pizzashopapi\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|solutionrelative:controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|f:\\web applications\\asp.net\\pizzashop\\pizzashop\\pizzashopapi\\pizzashopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|solutionrelative:pizzashopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|f:\\web applications\\asp.net\\pizzashop\\pizzashop\\pizzashopapi\\services\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|solutionrelative:services\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|f:\\web applications\\asp.net\\pizzashop\\pizzashop\\pizzashopapi\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B982810A-A166-488F-BE76-B330E852765D}|PizzaShopApi.csproj|solutionrelative:models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PizzaShopApi.http",
+              "DocumentMoniker": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\PizzaShopApi.http",
+              "RelativeDocumentMoniker": "PizzaShopApi.http",
+              "ToolTip": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\PizzaShopApi.http",
+              "RelativeToolTip": "PizzaShopApi.http",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-11T12:58:07.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Title": "PizzaController.cs",
+              "DocumentMoniker": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Controllers\\PizzaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PizzaController.cs",
+              "ToolTip": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Controllers\\PizzaController.cs",
+              "RelativeToolTip": "Controllers\\PizzaController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwDwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:06:35.291Z",
+              "WhenOpened": "2024-04-11T12:25:34.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PizzaService.cs",
+              "DocumentMoniker": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Services\\PizzaService.cs",
+              "RelativeDocumentMoniker": "Services\\PizzaService.cs",
+              "ToolTip": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Services\\PizzaService.cs",
+              "RelativeToolTip": "Services\\PizzaService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIAwwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:06:16.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "Models\\Pizza.cs",
+              "ToolTip": "F:\\Web Applications\\Asp.net\\PizzaShop\\PizzaShop\\PizzaShopApi\\Models\\Pizza.cs",
+              "RelativeToolTip": "Models\\Pizza.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T07:50:05.514Z",
               "EditorCaption": ""
             }
           ]

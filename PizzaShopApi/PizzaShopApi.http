@@ -4,3 +4,44 @@ GET {{PizzaShopApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{PizzaShopApi_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+GET {{PizzaShopApi_HostAddress}}/pizza/1
+Accept: application/json
+
+###
+
+POST {{PizzaShopApi_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Africaan",
+    "isGlutenFree": false
+}
+
+###
+
+PUT {{PizzaShopApi_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+DELETE {{PizzaShopApi_HostAddress}}/pizza/4
+Content-Type: application/json
+
+###
+
+GET {{PizzaShopApi_HostAddress}}/pizza/3
+Accept: application/json
+
+###
