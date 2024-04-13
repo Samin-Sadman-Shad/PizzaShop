@@ -30,6 +30,7 @@ namespace PizzaShopApi.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType<Pizza>(StatusCodes.Status201Created)]
         public IActionResult Create([FromBody]Pizza pizza)
         {
             PizzaService.Add(pizza);
@@ -37,6 +38,8 @@ namespace PizzaShopApi.Controllers
         }
 
         [HttpPut("{id}")]
+        [ProducesResponseType<Pizza>(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Update([FromRoute]int id, [FromBody]Pizza pizza)
         {
 
@@ -59,6 +62,8 @@ namespace PizzaShopApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType<Pizza>(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult Delete([FromRoute]int id)
         {
             var existingPizza = PizzaService.Get(id);
